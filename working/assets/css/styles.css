@@ -1,0 +1,12 @@
+.myDiv {
+	display: block;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.1%);
+	color: #f8f8f8;
+}
+
+.container {
+	width: 80%;
+	max-width: 1024px;
+	margin: 0 auto;
+}

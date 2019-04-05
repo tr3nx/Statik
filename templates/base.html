@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>${site['title']} - <%block name="title"/></title>
+
+		<link rel="stylesheet" href="${site['url']}/static/css/styles/default.min.css">
+		<link rel="stylesheet" href="${site['url']}/static/css/styles.css">
+	</head>
+	<body>
+		<nav>
+			<a href="#url">nav item</a>
+		</nav>
+		<div id="guid-123" class="page">
+			${self.body()}
+		</div>
+
+		<script src="${site['url']}/static/js/highlight.min.js"></script>
+		<script src="${site['url']}/static/js/scripts.js"></script>
+	</body>
+</html>
